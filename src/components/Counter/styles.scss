@@ -8,3 +8,9 @@
   padding-bottom: vars.$gutter / 2;
   margin-bottom: vars.$gutter;
 }
+@media (max-width: 767px) {
+  .counter {
+    color : #eee;
+    font-size: 2rem;
+  }
+}
