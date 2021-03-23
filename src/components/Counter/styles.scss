@@ -1,0 +1,10 @@
+@use 'src/styles/vars';
+
+.counter {
+  font-size: 3rem;
+  color : black;
+  font-weight: bold;
+  border-bottom: 1px solid;
+  padding-bottom: vars.$gutter / 2;
+  margin-bottom: vars.$gutter;
+}

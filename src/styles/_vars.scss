@@ -1,0 +1,7 @@
+@use 'sass:color';
+
+$color-primary: #2e5849;
+$color-alt: color.scale($color-primary, $lightness: -20%);
+$color-border: color.scale($color-primary, $lightness: -40%);
+
+$gutter: 1rem;

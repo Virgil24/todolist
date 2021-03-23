@@ -1,0 +1,26 @@
+@use 'src/styles/vars';
+
+.task {
+  background-color:#FBFBFB;
+  border: 1px solid #ccc;
+  padding: 2rem;
+  margin: 2rem;
+  color: black;
+  border-radius: 5px;
+  margin-bottom: .5rem;
+  display: flex;
+  font-size: 1.3rem;
+  justify-content: space-between;
+  &--done {
+    opacity: .4;
+    .task__label {
+      text-decoration: line-through;
+    }
+  }
+}
+.task__checkbox {
+  margin-right : 1rem
+}
+#icon {
+  margin-left : 1rem
+}
