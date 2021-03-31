@@ -7,7 +7,7 @@ export default [
   {
     id: 13,
     label: 'Obtenir mon Titre Professionnel ',
-    done: false,
+    done: true,
   },
   {
     id: 4,
